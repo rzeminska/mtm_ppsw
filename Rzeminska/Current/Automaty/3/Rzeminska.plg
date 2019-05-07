@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Dell\Desktop\git\mtm_ppsw\Rzeminska\Current\Automaty\3\Rzeminska.uvproj
+Project File Date:  05/01/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+compiling led.c...
+compiling keyboard.c...
+linking...
+Program Size: Code=1416 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+".\Rzeminska.axf" - 0 Errors, 0 Warning(s).
+Clean started: Project: 'Rzeminska'
+   deleting intermediate output files for target 'Target 1'

@@ -5,7 +5,6 @@
 
 enum LedState{STAY, MOVE_RIGHT};
 enum LedState eLedState = MOVE_RIGHT;
-unsigned char ucStepsCounter = 0;
 
 
 int main()

@@ -4,8 +4,6 @@
 
 #define ILOSC_CYKLI_MSEK 5000
 
-enum KeyboardState {RELEASED, BUTTON_0, BUTTON_1, BUTTON_2, BUTTON_3};
-
 void Delay(int iMilisekundy)
 {
 	int iLicznikPetli, iIloscMilisek;

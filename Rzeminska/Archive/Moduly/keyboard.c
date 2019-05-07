@@ -6,7 +6,6 @@
 #define S2_bm (1<<5)
 #define S3_bm (1<<7)
 
-enum KeyboardState {RELEASED, BUTTON_0, BUTTON_1, BUTTON_2, BUTTON_3};
 
 void KeyboardInit()
 {

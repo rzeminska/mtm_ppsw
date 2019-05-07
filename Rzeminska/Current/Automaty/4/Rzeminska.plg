@@ -1,0 +1,178 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Dell\Desktop\git\mtm_ppsw\Rzeminska\Current\Automaty\4\Rzeminska.uvproj
+Project File Date:  05/01/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(32): warning:  #223-D: function "eKeyboardState" declared implicitly
+main.c(32): error:  #20: identifier "BUTTON_0" is undefined
+".\Rzeminska.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(32): error:  #409: function "eKeyboardRead" returns incomplete type "enum KeyboardState"
+main.c(32): error:  #20: identifier "BUTTON_0" is undefined
+".\Rzeminska.axf" - 2 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+keyboard.h(3): error:  #110: expected either a definition or a tag name
+main.c(32): error:  #165: too few arguments in function call
+main.c(32): error:  #409: function "eKeyboardRead" returns incomplete type "enum KeyboardState"
+main.c(32): error:  #20: identifier "BUTTON_0" is undefined
+compiling keyboard.c...
+keyboard.h(3): error:  #110: expected either a definition or a tag name
+keyboard.c(16): error:  #147-D: declaration is incompatible with "enum KeyboardState eKeyboardRead(<error-type>)" (declared at line 3 of "keyboard.h")
+".\Rzeminska.axf" - 6 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(32): error:  #165: too few arguments in function call
+main.c(32): error:  #409: function "eKeyboardRead" returns incomplete type "enum KeyboardState"
+main.c(32): error:  #20: identifier "BUTTON_0" is undefined
+compiling keyboard.c...
+keyboard.c(16): error:  #147-D: declaration is incompatible with "enum KeyboardState eKeyboardRead(enum KeyboardState)" (declared at line 3 of "keyboard.h")
+".\Rzeminska.axf" - 4 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(32): error:  #165: too few arguments in function call
+compiling keyboard.c...
+keyboard.c(9): error:  #101: "KeyboardState" has already been declared in the current scope
+keyboard.c(9): error:  #101: "RELEASED" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_0" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_1" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_2" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_3" has already been declared in the current scope
+keyboard.c(16): error:  #147-D: declaration is incompatible with "enum KeyboardState eKeyboardRead(enum KeyboardState)" (declared at line 3 of "keyboard.h")
+".\Rzeminska.axf" - 8 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(5): error:  #101: "KeyboardState" has already been declared in the current scope
+main.c(5): error:  #101: "RELEASED" has already been declared in the current scope
+main.c(5): error:  #101: "BUTTON_0" has already been declared in the current scope
+main.c(5): error:  #101: "BUTTON_1" has already been declared in the current scope
+main.c(5): error:  #101: "BUTTON_2" has already been declared in the current scope
+main.c(5): error:  #101: "BUTTON_3" has already been declared in the current scope
+main.c(32): error:  #165: too few arguments in function call
+compiling keyboard.c...
+keyboard.c(9): error:  #101: "KeyboardState" has already been declared in the current scope
+keyboard.c(9): error:  #101: "RELEASED" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_0" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_1" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_2" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_3" has already been declared in the current scope
+keyboard.c(16): error:  #147-D: declaration is incompatible with "enum KeyboardState eKeyboardRead(enum KeyboardState)" (declared at line 3 of "keyboard.h")
+".\Rzeminska.axf" - 14 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(32): error:  #165: too few arguments in function call
+compiling keyboard.c...
+keyboard.c(9): error:  #101: "KeyboardState" has already been declared in the current scope
+keyboard.c(9): error:  #101: "RELEASED" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_0" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_1" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_2" has already been declared in the current scope
+keyboard.c(9): error:  #101: "BUTTON_3" has already been declared in the current scope
+keyboard.c(16): error:  #147-D: declaration is incompatible with "enum KeyboardState eKeyboardRead(enum KeyboardState)" (declared at line 3 of "keyboard.h")
+".\Rzeminska.axf" - 8 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(32): error:  #165: too few arguments in function call
+main.c(32): error:  #409: function "eKeyboardRead" returns incomplete type "enum KeyboardState"
+main.c(32): error:  #20: identifier "BUTTON_0" is undefined
+compiling keyboard.c...
+keyboard.c(16): error:  #147-D: declaration is incompatible with "enum KeyboardState eKeyboardRead(enum KeyboardState)" (declared at line 3 of "keyboard.h")
+".\Rzeminska.axf" - 4 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(32): warning:  #223-D: function "KeyboardState" declared implicitly
+main.c(32): error:  #20: identifier "BUTTON_0" is undefined
+compiling keyboard.c...
+keyboard.c(16): error:  #147-D: declaration is incompatible with "enum KeyboardState eKeyboardRead(enum KeyboardState)" (declared at line 3 of "keyboard.h")
+".\Rzeminska.axf" - 2 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+keyboard.h(3): warning:  #231-D: declaration is not visible outside of function
+main.c(32): warning:  #223-D: function "KeyboardState" declared implicitly
+main.c(32): error:  #20: identifier "BUTTON_0" is undefined
+compiling keyboard.c...
+keyboard.h(3): warning:  #231-D: declaration is not visible outside of function
+keyboard.c(16): error:  #147-D: declaration is incompatible with "enum KeyboardState eKeyboardRead(enum eKeyboardRead)" (declared at line 3 of "keyboard.h")
+".\Rzeminska.axf" - 2 Errors, 3 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+keyboard.h(3): error:  #40: expected an identifier
+main.c(32): warning:  #223-D: function "KeyboardState" declared implicitly
+main.c(32): error:  #20: identifier "BUTTON_0" is undefined
+compiling keyboard.c...
+keyboard.h(3): error:  #40: expected an identifier
+".\Rzeminska.axf" - 3 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(32): warning:  #223-D: function "eKeyboardState" declared implicitly
+main.c(32): error:  #20: identifier "BUTTON_0" is undefined
+compiling keyboard.c...
+".\Rzeminska.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(32): error:  #409: function "eKeyboardRead" returns incomplete type "enum KeyboardState"
+main.c(32): error:  #20: identifier "BUTTON_0" is undefined
+".\Rzeminska.axf" - 2 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling keyboard.c...
+linking...
+Program Size: Code=1388 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+".\Rzeminska.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1388 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+".\Rzeminska.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=1388 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+".\Rzeminska.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=1392 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+".\Rzeminska.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1392 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+".\Rzeminska.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=1388 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+".\Rzeminska.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=1388 RO-data=32 RW-data=8 ZI-data=1256  
+FromELF: creating hex file...
+".\Rzeminska.axf" - 0 Errors, 0 Warning(s).
+Clean started: Project: 'Rzeminska'
+   deleting intermediate output files for target 'Target 1'

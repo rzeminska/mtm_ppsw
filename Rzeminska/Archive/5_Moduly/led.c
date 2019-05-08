@@ -21,25 +21,22 @@ void LedInit()
 
 void LedOn(unsigned char ucLedIndeks)
 {
+	IO1CLR = LED1_bm | LED2_bm | LED3_bm | LED0_bm;
 	switch(ucLedIndeks)
 	{
 		case 0:
-			IO1CLR = LED1_bm | LED2_bm | LED3_bm;
 			IO1SET = LED0_bm;
 			break;
 		
 		case 1:
-			IO1CLR = LED0_bm | LED2_bm | LED3_bm;
 			IO1SET = LED1_bm;
 			break;
 		
 		case 2:
-			IO1CLR = LED0_bm | LED1_bm | LED3_bm;
 			IO1SET = LED2_bm;
 			break;
 		
 		case 3:
-			IO1CLR = LED0_bm | LED1_bm | LED2_bm;
 			IO1SET = LED3_bm;
 			break;
 		

@@ -3,8 +3,8 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\Users\Dell\Desktop\git\mtm_ppsw\Rzeminska\Current\Automaty\6\Rzeminska.uvproj
-Project File Date:  05/01/2019
+C:\Users\student\Desktop\rzeminska\mtm_ppsw\Rzeminska\Archive\6_Automaty\6\Rzeminska.uvproj
+Project File Date:  05/08/2019
 
 <h2>Output:</h2>
 Build target 'Target 1'
@@ -16,16 +16,3 @@ linking...
 Program Size: Code=1440 RO-data=32 RW-data=8 ZI-data=1256  
 FromELF: creating hex file...
 ".\Rzeminska.axf" - 0 Errors, 0 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=1440 RO-data=32 RW-data=8 ZI-data=1256  
-FromELF: creating hex file...
-".\Rzeminska.axf" - 0 Errors, 0 Warning(s).
-Build target 'Target 1'
-linking...
-Program Size: Code=1440 RO-data=32 RW-data=8 ZI-data=1256  
-FromELF: creating hex file...
-".\Rzeminska.axf" - 0 Errors, 0 Warning(s).
-Clean started: Project: 'Rzeminska'
-   deleting intermediate output files for target 'Target 1'
